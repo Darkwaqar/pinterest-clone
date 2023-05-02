@@ -13,11 +13,11 @@ import { NhostClient, NhostProvider } from "@nhost/react";
 import * as SecureStore from "expo-secure-store";
 
 const nhost = new NhostClient({
-  backendUrl: REACT_APP_NHOST_BACKEND_URL,
+  // backendUrl: REACT_APP_NHOST_BACKEND_URL,
   clientStorage: SecureStore,
   clientStorageType: "expo-secure-storage",
-  // subdomain: REACT_APP_NHOST_SUBDOMAIN,
-  // region: REACT_APP_NHOST_REGION,
+  subdomain: REACT_APP_NHOST_SUBDOMAIN,
+  region: REACT_APP_NHOST_REGION,
 });
 
 export default function App() {

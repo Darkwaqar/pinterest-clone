@@ -37,3 +37,19 @@
 
 12. add expo-linking
     `npx expo install expo-linking`
+
+13. add image picker
+    `npx expo install expo-image-picker`
+
+# preview
+
+| Login                        | SignUp                       | Home                         |
+| ---------------------------- | ---------------------------- | ---------------------------- |
+| ![alt text](./preview/1.png) | ![alt text](./preview/2.png) | ![alt text](./preview/3.png) |
+| ![alt text](./preview/4.png) | ![alt text](./preview/5.png) | ![alt text](./preview/6.png) |
+
+| ![alt text](./preview/7.png)
+
+| Pins                         | Images                       |
+| ---------------------------- | ---------------------------- |
+| ![alt text](./preview/8.png) | ![alt text](./preview/9.png) |
