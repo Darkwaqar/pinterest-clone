@@ -54,3 +54,18 @@
 | Pins                         | Images                       |
 | ---------------------------- | ---------------------------- |
 | ![alt text](./preview/8.png) | ![alt text](./preview/9.png) |
+
+## Steps to Run
+
+1. `yarn install`
+2. make sure to add env file with
+
+```
+ REACT_APP_NHOST_SUBDOMAIN=[subdomain]
+   REACT_APP_NHOST_REGION=[region]
+```
+
+3. create the pin table as in picture. and make sure to give permission to the user as well as public
+   ![alt text](./preview/10.png)
+
+4. start the project using `npx expo start`
