@@ -5,3 +5,7 @@ declare module "@env" {
 
   // other ones
 }
+declare module "*.png" {
+  const value: import("react-native").ImageSourcePropType;
+  export default value;
+}

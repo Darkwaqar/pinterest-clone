@@ -11,12 +11,20 @@ declare global {
   }
 }
 
+export type AuthParamList = {
+  "Sign in": undefined;
+  "Sign up": undefined;
+};
+
+export type AuthStackScreenProps<Screen extends keyof AuthParamList> =
+  NativeStackScreenProps<AuthParamList, Screen>;
+
 export type RootStackParamList = {
   Root: NavigatorScreenParams<RootTabParamList> | undefined;
   Pin: { id: string };
   Modal: undefined;
   NotFound: undefined;
-  Auth: undefined;
+  Auth: NavigatorScreenParams<AuthParamList>;
 };
 
 export type RootStackScreenProps<Screen extends keyof RootStackParamList> =
