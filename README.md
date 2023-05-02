@@ -1,5 +1,7 @@
 # Clone of Pinterest
 
+# React Native | TypeScript | WebSupport | SecureStore | nHost | nHost-auth | nhost-database | nhost-storage | Postgre | Graphql | React Navigation v6 | Expo-linking
+
 ## step
 
 1. use `npx create-expo-app -t expo-template-blank-typescript` this will init the project in typescript
